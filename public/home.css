@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+  }
+  .navbar-brand{
+    font-size: 26px;
+  }
+  .content {
+    flex: 1;
+  }
+  .navbar-nav .nav-link {
+    font-size: 26px;
+    font-family: 'Your Custom Font', lucida;
+  }
+  .custom-font {
+    font-family: 'Your Custom Font', lucida;
+}
+.red-text {
+  color: rgb(223, 46, 46);
+  font-family: 'Your Custom Font', lucida;
+  font: 300;
+  }
+  .red-text2 {
+    color: rgb(223, 46, 46);
+    }
+  .greet-text {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .account-details {
+      background-color: #1e1e1f;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      object-fit: cover;
+    }
+
+    .card-text {
+      font-size: 1.2rem;
+      color: #cacaca;
+    }
